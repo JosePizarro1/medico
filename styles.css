@@ -1,0 +1,117 @@
+/* CSS Custom Adjustments & Theme System for WOMEN&KIDS MC */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --bg-warm: #FFF5EE;
+  --text-dark: #3c2a2f;
+  --text-muted: #6d585e;
+  --pink-primary: #DE5D83;
+  --pink-hover: #c94b70;
+  --pink-light: rgba(222, 93, 131, 0.1);
+  --teal-secondary: #3AA8C1;
+  --teal-hover: #2b7f93;
+  --teal-light: rgba(58, 168, 193, 0.1);
+  --border-warm: #f3ded4;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--bg-warm);
+  color: var(--text-dark);
+  overflow-x: clip;
+}
+
+.font-serif-d {
+  font-family: var(--font-serif);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
+
+/* Glassmorphism & Aurora Blurs */
+.backdrop-glass {
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.65);
+}
+
+/* Gallery Carousel */
+.gal-card {
+  transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.6s ease;
+}
+
+.gal-dim {
+  opacity: 0.55;
+  transform: scale(0.93);
+}
+
+/* FAQ Accordion Grid Transition */
+.faq-body {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.faq-item.open .faq-body {
+  grid-template-rows: 1fr;
+}
+
+.faq-item.open .faq-bar {
+  opacity: 1 !important;
+}
+
+.faq-item.open .faq-icon i {
+  transform: rotate(45deg);
+}
+
+.faq-icon i {
+  display: inline-block;
+  transition: transform 0.35s ease;
+}
+
+/* Navigation Links */
+.nav-link {
+  transition: color 0.25s ease;
+}
+
+/* Bento Cell Hover Effects */
+.bento-cell {
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.35s ease, border-color 0.35s ease;
+}
+
+.bento-cell:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px -15px rgba(222, 93, 131, 0.15);
+}
+
+/* Service Item Hover Effects */
+.svc-item .svc-icon-box {
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.svc-item:hover .svc-icon-box {
+  transform: translateY(-5px) scale(1.05);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF5EE;
+}
+::-webkit-scrollbar-thumb {
+  background: #f3ded4;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #DE5D83;
+}

@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WOMEN&KIDS MC · Dra. Ahidé Valeria García Muñoz | Ginecología y Obstetricia</title>
+  
+  <!-- SEO & Social Meta Tags -->
+  <meta name="description" content="Atención ginecológica y obstétrica integral con calidez, empatía y medicina basada en evidencia. Control prenatal de alto y bajo riesgo en Doctors Hospital East Auna, Guadalupe, N.L. Cédulas 8566406 · 6062822." />
+  <meta property="og:title" content="Dra. Ahidé Valeria García Muñoz — Ginecología y Obstetricia | WOMEN&KIDS MC" />
+  <meta property="og:description" content="Cuidamos de ti y de tu bebé en cada etapa. Cita presencial en Doctors Hospital East Auna o reserva en línea por Doctoralia y WhatsApp." />
+  <meta property="og:image" content="consultorio.jpeg" />
+  <meta property="og:type" content="website" />
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont/tabler-icons.min.css" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brandPink: '#DE5D83',
+            brandPinkHover: '#c94b70',
+            brandTeal: '#3AA8C1',
+            brandTealHover: '#2b7f93',
+            brandDark: '#3c2a2f',
+            brandWarmBg: '#FFF5EE',
+            brandBorder: '#f3ded4',
+            brandMuted: '#6d585e',
+          },
+          fontFamily: {
+            serif: ['Playfair Display', 'Georgia', 'serif'],
+            body: ['Plus Jakarta Sans', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Local Custom CSS Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="font-body bg-[#FFF5EE] text-[#4a3a3a] antialiased">
+
+  <!-- ==================== STICKY NAVBAR ==================== -->
+  <header class="sticky top-0 z-50 backdrop-glass border-b border-[#DE5D83]/10 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      <!-- Logo -->
+      <a href="#inicio" class="flex items-center gap-3 group">
+        <span class="w-10 h-10 rounded-full bg-gradient-to-br from-[#DE5D83] to-[#e98aa6] flex items-center justify-center text-white text-lg shadow-md shadow-[#DE5D83]/30 group-hover:scale-105 transition-transform">
+          <i class="ti ti-heart-filled"></i>
+        </span>
+        <span class="font-serif-d text-xl font-semibold tracking-wide text-[#3c2a2f]">
+          WOMEN<span class="text-[#DE5D83]">&amp;</span>KIDS <span class="text-[#3AA8C1]">MC</span>
+        </span>
+      </a>
+
+      <!-- Navigation Menu -->
+      <nav class="hidden lg:flex items-center gap-8 text-sm font-medium text-[#6d585e]">
+        <a href="#inicio" class="nav-link text-[#DE5D83] font-semibold hover:text-[#DE5D83]">Inicio</a>
+        <a href="#agendamiento" class="nav-link hover:text-[#DE5D83]">Agendar Cita</a>
+        <a href="#doctora" class="nav-link hover:text-[#DE5D83]">Sobre la Doctora</a>
+        <a href="#servicios" class="nav-link hover:text-[#DE5D83]">Servicios</a>
+        <a href="#galeria" class="nav-link hover:text-[#DE5D83]">Consultorio</a>
+        <a href="#faq" class="nav-link hover:text-[#DE5D83]">Preguntas Frecuentes</a>
+        <a href="#ubicacion" class="nav-link hover:text-[#DE5D83]">Ubicación</a>
+      </nav>
+
+      <!-- Header CTA Button -->
+      <a href="https://www.doctoralia.com.mx/ahide-valeria-garcia-munoz/ginecologo/nuevo-leon" target="_blank" rel="noopener" class="rounded-full bg-[#DE5D83] text-white text-sm font-semibold px-6 py-3 shadow-lg shadow-[#DE5D83]/30 hover:bg-[#c94b70] hover:shadow-xl transition-all">
+        Agendar cita
+      </a>
+    </div>
+  </header>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section id="inicio" class="relative min-h-[92vh] flex items-center overflow-hidden">
+    <!-- Aurora background blurs -->
+    <div class="absolute inset-0 bg-[#FFF5EE]"></div>
+    <div class="absolute -top-40 -left-40 w-[700px] h-[700px] rounded-full bg-[#DE5D83]/20 blur-[120px] pointer-events-none"></div>
+    <div class="absolute top-20 right-0 w-[600px] h-[600px] rounded-full bg-[#3AA8C1]/15 blur-[120px] pointer-events-none"></div>
+    <div class="absolute bottom-0 left-1/3 w-[500px] h-[500px] rounded-full bg-[#FFD9C4]/50 blur-[100px] pointer-events-none"></div>
+
+    <!-- Hero Image container (Desktop right offset) -->
+    <div class="absolute right-0 top-0 bottom-0 w-[54%] hidden md:block z-0">
+      <div class="absolute top-16 bottom-10 left-0 right-0 rounded-l-[3.5rem] overflow-hidden border-l border-t border-b border-white/60 shadow-2xl">
+        <img src="consultorio.jpeg" alt="Consultorio de la Dra. Ahidé Valeria García Muñoz en Doctors Hospital East Auna" class="w-full h-full object-cover" decoding="async" />
+        <div class="absolute inset-0 bg-gradient-to-r from-[#FFF5EE] via-[#FFF5EE]/30 to-transparent"></div>
+        <div class="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-[#FFF5EE] to-transparent"></div>
+      </div>
+    </div>
+
+    <!-- Frosted Hero Panel -->
+    <div class="relative z-10 max-w-7xl mx-auto px-6 py-16 w-full">
+      <div id="heroPanel" class="max-w-xl backdrop-blur-md bg-white/55 border border-white/70 rounded-[2.5rem] rounded-tl-lg p-8 md:p-11 shadow-xl shadow-[#DE5D83]/10">
+        <p class="flex items-center gap-2 text-xs font-bold tracking-widest uppercase text-[#3AA8C1]">
+          <span class="w-8 h-px bg-[#3AA8C1]"></span>
+          Ginecología &amp; Obstetricia · Guadalupe, N.L.
+        </p>
+        <h1 class="font-serif-d text-4xl md:text-[3rem] leading-[1.12] font-medium text-[#3c2a2f] mt-5">
+          Cuidamos de ti y de tu bebé
+          <em class="text-[#DE5D83] not-italic block md:inline font-serif-d">en cada etapa</em>
+        </h1>
+        <p class="mt-5 text-base leading-relaxed text-[#6d585e]">
+          Acompañamiento ginecológico y obstétrico con calidez, empatía y medicina basada en evidencia. Desde tu chequeo anual hasta el control de embarazos de alto riesgo, estás en manos expertas.
+        </p>
+        
+        <div class="mt-8 flex flex-wrap items-center gap-5">
+          <a href="https://www.doctoralia.com.mx/ahide-valeria-garcia-munoz/ginecologo/nuevo-leon" target="_blank" rel="noopener" class="rounded-full bg-[#DE5D83] text-white font-semibold px-8 py-4 shadow-lg shadow-[#DE5D83]/30 hover:bg-[#c94b70] hover:scale-102 transition-all">
+            Agenda tu cita hoy
+          </a>
+          <div class="flex items-center gap-2 text-sm text-[#6d585e] bg-white/80 rounded-full px-4 py-2 border border-[#f3ded4]">
+            <span class="text-[#f0a92e] text-base"><i class="ti ti-star-filled"></i></span>
+            <span><strong class="text-[#3c2a2f]">5.0</strong> · 763+ opiniones</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== BENTO AGENDAMIENTO ==================== -->
+  <section id="agendamiento" class="relative z-20 py-16">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center max-w-2xl mx-auto mb-10">
+        <p class="text-xs font-bold tracking-widest uppercase text-[#3AA8C1]">Agendamiento Inmediato</p>
+        <h2 class="font-serif-d text-3xl md:text-4xl text-[#3c2a2f] mt-2">Elige la forma de agendar tu cita</h2>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
+        <!-- Option 1: Doctoralia (Large Featured Bento Card) -->
+        <div class="bento-cell lg:col-span-3 bg-white rounded-[2rem] border border-[#f3ded4] shadow-xl shadow-[#DE5D83]/8 p-8 md:p-10 flex flex-col justify-between">
+          <div class="flex flex-col sm:flex-row items-start justify-between gap-6">
+            <div>
+              <span class="inline-block text-[11px] font-bold tracking-[0.2em] uppercase text-[#DE5D83] bg-[#DE5D83]/10 px-3 py-1 rounded-full mb-3">
+                Vía recomendada
+              </span>
+              <h3 class="font-serif-d text-3xl text-[#3c2a2f]">Reserva en Doctoralia</h3>
+              <p class="text-sm text-[#6d585e] mt-3 max-w-md leading-relaxed">
+                Elige el horario que mejor te acomode y recibe confirmación inmediata. Perfil verificado de la Dra. Ahidé Valeria García Muñoz.
+              </p>
+            </div>
+            <div class="shrink-0 text-center bg-[#FFF5EE] rounded-2xl px-6 py-4 border border-[#f3ded4] w-full sm:w-auto">
+              <p class="text-3xl font-bold text-[#3c2a2f]">5.0</p>
+              <p class="text-[#f0a92e] text-sm tracking-tight">★★★★★</p>
+              <p class="text-[11px] text-[#6d585e] mt-1">763+ opiniones<br />verificadas</p>
+            </div>
+          </div>
+
+          <a href="https://www.doctoralia.com.mx/ahide-valeria-garcia-munoz/ginecologo/nuevo-leon" target="_blank" rel="noopener" class="mt-8 w-full inline-flex items-center justify-center gap-2 rounded-full bg-[#DE5D83] text-white font-semibold px-8 py-4 shadow-lg shadow-[#DE5D83]/30 hover:bg-[#c94b70] transition-all">
+            <i class="ti ti-calendar-check text-xl"></i>
+            Agendar en Doctoralia
+          </a>
+        </div>
+
+        <!-- Right Stacked Bento Options -->
+        <div class="lg:col-span-2 flex flex-col gap-6">
+          <!-- Option 2: WhatsApp Directo -->
+          <a href="https://wa.me/message/B7XHW6OWKLTDG1" target="_blank" rel="noopener" class="bento-cell flex-1 bg-[#e6f4f8] border border-[#3AA8C1]/30 rounded-[2rem] p-7 flex items-center gap-5 hover:border-[#3AA8C1]/70">
+            <span class="w-14 h-14 rounded-2xl bg-[#3AA8C1] text-white flex items-center justify-center text-2xl shrink-0 shadow-md shadow-[#3AA8C1]/30">
+              <i class="ti ti-brand-whatsapp"></i>
+            </span>
+            <div>
+              <h3 class="font-serif-d text-xl text-[#234b56]">WhatsApp Directo</h3>
+              <p class="text-sm text-[#3f6a75] mt-1 flex items-center gap-1 font-medium">
+                Escríbenos a WOMEN&amp;KIDS MC <i class="ti ti-arrow-up-right text-base"></i>
+              </p>
+            </div>
+          </a>
+
+          <!-- Option 3: Phone Call -->
+          <a href="tel:+528127132300" class="bento-cell flex-1 bg-white border border-[#f3ded4] rounded-[2rem] p-7 flex items-center gap-5 hover:border-[#DE5D83]/50">
+            <span class="w-14 h-14 rounded-2xl bg-[#FFF5EE] border border-[#f3ded4] text-[#DE5D83] flex items-center justify-center text-2xl shrink-0">
+              <i class="ti ti-phone"></i>
+            </span>
+            <div>
+              <h3 class="font-serif-d text-xl text-[#3c2a2f]">Llamar al consultorio</h3>
+              <p class="text-base text-[#6d585e] mt-1 font-bold">
+                +52 81 2713 2300
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SOBRE LA DOCTORA ==================== -->
+  <section id="doctora" class="py-20 bg-white/60">
+    <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-12 gap-12 items-center">
+      <!-- Doctor Photo with Organic Shape -->
+      <div class="lg:col-span-5 relative">
+        <div class="absolute -top-8 -left-8 w-40 h-40 rounded-full bg-[#3AA8C1]/15 blur-2xl"></div>
+        <div class="absolute -bottom-10 -right-6 w-52 h-52 rounded-full bg-[#DE5D83]/15 blur-2xl"></div>
+        
+        <div class="relative rounded-[2.5rem] overflow-hidden border-8 border-white shadow-2xl shadow-[#DE5D83]/15 aspect-[4/5]">
+          <img id="doctorImg" src="consultorio.jpeg" alt="Dra. Ahidé Valeria García Muñoz en su consultorio" class="w-full h-full object-cover" decoding="async" />
+        </div>
+
+        <div class="absolute -bottom-4 right-6 bg-white rounded-2xl shadow-lg border border-[#f3ded4] px-5 py-3 flex items-center gap-3">
+          <span class="text-[#f0a92e] text-2xl"><i class="ti ti-star-filled"></i></span>
+          <div>
+            <p class="font-bold text-[#3c2a2f] leading-none text-lg">5.0 ⭐</p>
+            <p class="text-xs text-[#6d585e]">763+ opiniones de pacientes</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Doctor Bio & Credentials -->
+      <div class="lg:col-span-7">
+        <p class="flex items-center gap-2 text-xs font-bold tracking-widest uppercase text-[#3AA8C1]">
+          <span class="w-8 h-px bg-[#3AA8C1]"></span>
+          Sobre la Doctora
+        </p>
+        <h2 class="font-serif-d text-4xl text-[#3c2a2f] mt-4">
+          Dra. Ahidé Valeria García Muñoz
+        </h2>
+        
+        <!-- Credential Tags -->
+        <div class="mt-4 flex flex-wrap gap-2">
+          <span class="rounded-full bg-[#DE5D83]/10 text-[#c14568] text-xs font-semibold px-4 py-2 border border-[#DE5D83]/20">
+            Ginecología y Obstetricia
+          </span>
+          <span class="rounded-full bg-[#3AA8C1]/10 text-[#2b7f93] text-xs font-semibold px-4 py-2 border border-[#3AA8C1]/20">
+            Medicina Crítica Obstétrica
+          </span>
+          <span class="rounded-full bg-white border border-[#f3ded4] text-[#6d585e] text-xs font-semibold px-4 py-2">
+            Cédulas 8566406 · 6062822
+          </span>
+        </div>
+
+        <p class="mt-6 text-[#6d585e] leading-relaxed text-base">
+          Comprometida con la salud integral de la mujer en todas las etapas de su vida. Atiende desde revisiones ginecológicas de rutina, planificación familiar y salud sexual, hasta control prenatal y seguimiento del embarazo de bajo y alto riesgo.
+        </p>
+        <p class="mt-4 text-[#6d585e] leading-relaxed text-base">
+          Con formación actualizada y enfoque humano, ofrece una atención cálida, respetuosa y basada en la evidencia, dentro de un entorno moderno y seguro en <strong>Doctors Hospital East Auna</strong> en Guadalupe, Nuevo León. Su prioridad es que cada paciente se sienta escuchada, acompañada e informada para tomar decisiones tranquilas y seguras.
+        </p>
+
+        <!-- Real Diplomas & Certificates Highlight Card -->
+        <div class="mt-6 bg-white border border-[#f3ded4] rounded-2xl p-4 flex flex-col sm:flex-row items-center gap-5 shadow-sm">
+          <img src="certificados.jpeg" alt="Certificados y títulos médicos de la Dra. Valeria García" class="w-full sm:w-36 h-28 object-cover rounded-xl border border-[#f3ded4]" />
+          <div>
+            <p class="text-xs font-bold tracking-widest uppercase text-[#3AA8C1]">Certificaciones Oficiales</p>
+            <h4 class="font-serif-d text-lg text-[#3c2a2f] font-semibold mt-1">Formación y Cédulas Verificadas</h4>
+            <p class="text-xs text-[#6d585e] mt-1 leading-relaxed">
+              Títulos y cédulas profesionales en regla respaldados por instituciones de salud nacionales y por el perfil oficial verificado en Doctoralia.
+            </p>
+          </div>
+        </div>
+
+        <!-- Quote Card -->
+        <div class="relative mt-6 bg-[#FFF5EE] border border-[#f3ded4] rounded-2xl p-7 pl-9">
+          <span class="absolute left-0 top-0 bottom-0 w-1.5 rounded-l-2xl bg-gradient-to-b from-[#3AA8C1] to-[#DE5D83]"></span>
+          <p class="font-serif-d italic text-lg text-[#3c2a2f] leading-relaxed">
+            “Mi compromiso es ofrecerte una atención cálida, empática y basada en evidencia, para que tú y tu bebé se sientan seguras en cada paso.”
+          </p>
+          <p class="mt-3 text-xs font-bold tracking-[0.2em] uppercase text-[#DE5D83]">
+            — Dra. Valeria García Muñoz
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SERVICIOS ==================== -->
+  <section id="servicios" class="py-20">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="max-w-3xl">
+        <p class="flex items-center gap-2 text-xs font-bold tracking-widest uppercase text-[#DE5D83]">
+          <span class="w-8 h-px bg-[#DE5D83]"></span>
+          Nuestros Servicios
+        </p>
+        <h2 class="font-serif-d text-4xl text-[#3c2a2f] mt-4">
+          Cuidado integral para cada etapa de tu vida
+        </h2>
+      </div>
+
+      <!-- Services Grid (8 Services) -->
+      <div class="mt-14 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+        <!-- Service 1 -->
+        <div class="svc-item bg-white border border-[#f3ded4] rounded-2xl p-6 text-center shadow-sm hover:shadow-md transition-all group">
+          <span class="svc-icon-box mx-auto w-20 h-20 rounded-full bg-[#DE5D83]/10 text-[#DE5D83] flex items-center justify-center text-3xl group-hover:bg-[#DE5D83] group-hover:text-white">
+            <i class="ti ti-stethoscope"></i>
+          </span>
+          <h3 class="mt-4 font-semibold text-base text-[#3c2a2f]">
+            Consulta Ginecológica y Chequeo Anual
+          </h3>
+          <p class="mt-2 text-xs text-[#6d585e] leading-relaxed">
+            Evaluación clínica integral y preventiva para mantener tu salud en óptimas condiciones.
+          </p>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="svc-item bg-white border border-[#f3ded4] rounded-2xl p-6 text-center shadow-sm hover:shadow-md transition-all group">
+          <span class="svc-icon-box mx-auto w-20 h-20 rounded-full bg-[#3AA8C1]/10 text-[#3AA8C1] flex items-center justify-center text-3xl group-hover:bg-[#3AA8C1] group-hover:text-white">
+            <i class="ti ti-baby-carriage"></i>
+          </span>
+          <h3 class="mt-4 font-semibold text-base text-[#3c2a2f]">
+            Control Prenatal y Embarazo de Alto y Bajo Riesgo
+          </h3>
+          <p class="mt-2 text-xs text-[#6d585e] leading-relaxed">
+            Acompañamiento especializado trimestre a trimestre respaldado por Medicina Crítica Obstétrica.
+          </p>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="svc-item bg-white border border-[#f3ded4] rounded-2xl p-6 text-center shadow-sm hover:shadow-md transition-all group">
+          <span class="svc-icon-box mx-auto w-20 h-20 rounded-full bg-[#DE5D83]/10 text-[#DE5D83] flex items-center justify-center text-3xl group-hover:bg-[#DE5D83] group-hover:text-white">
+            <i class="ti ti-device-heart-monitor"></i>
+          </span>
+          <h3 class="mt-4 font-semibold text-base text-[#3c2a2f]">
+            Ultrasonido Obstétrico
+          </h3>
+          <p class="mt-2 text-xs text-[#6d585e] leading-relaxed">
+            Seguimiento puntual del crecimiento y bienestar de tu bebé con explicación detallada.
+          </p>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="svc-item bg-white border border-[#f3ded4] rounded-2xl p-6 text-center shadow-sm hover:shadow-md transition-all group">
+          <span class="svc-icon-box mx-auto w-20 h-20 rounded-full bg-[#3AA8C1]/10 text-[#3AA8C1] flex items-center justify-center text-3xl group-hover:bg-[#3AA8C1] group-hover:text-white">
+            <i class="ti ti-microscope"></i>
+          </span>
+          <h3 class="mt-4 font-semibold text-base text-[#3c2a2f]">
+            Papanicolaou y Detección Oportuna
+          </h3>
+          <p class="mt-2 text-xs text-[#6d585e] leading-relaxed">
+            Estudios preventivos de rutina para la tranquilidad de tu salud cervicouterina.
+          </p>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="svc-item bg-white border border-[#f3ded4] rounded-2xl p-6 text-center shadow-sm hover:shadow-md transition-all group">
+          <span class="svc-icon-box mx-auto w-20 h-20 rounded-full bg-[#3AA8C1]/10 text-[#3AA8C1] flex items-center justify-center text-3xl group-hover:bg-[#3AA8C1] group-hover:text-white">
+            <i class="ti ti-vaccine"></i>
+          </span>
+          <h3 class="mt-4 font-semibold text-base text-[#3c2a2f]">
+            Vacunación contra el VPH
+          </h3>
+          <p class="mt-2 text-xs text-[#6d585e] leading-relaxed">
+            Protección efectiva y asesoría en esquemas de vacunación contra el Papiloma Humano.
+          </p>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="svc-item bg-white border border-[#f3ded4] rounded-2xl p-6 text-center shadow-sm hover:shadow-md transition-all group">
+          <span class="svc-icon-box mx-auto w-20 h-20 rounded-full bg-[#DE5D83]/10 text-[#DE5D83] flex items-center justify-center text-3xl group-hover:bg-[#DE5D83] group-hover:text-white">
+            <i class="ti ti-calendar-heart"></i>
+          </span>
+          <h3 class="mt-4 font-semibold text-base text-[#3c2a2f]">
+            Planificación Familiar y Anticoncepción
+          </h3>
+          <p class="mt-2 text-xs text-[#6d585e] leading-relaxed">
+            Asesoría personalizada para la elección del método anticonceptivo ideal para ti.
+          </p>
+        </div>
+
+        <!-- Service 7 -->
+        <div class="svc-item bg-white border border-[#f3ded4] rounded-2xl p-6 text-center shadow-sm hover:shadow-md transition-all group">
+          <span class="svc-icon-box mx-auto w-20 h-20 rounded-full bg-[#3AA8C1]/10 text-[#3AA8C1] flex items-center justify-center text-3xl group-hover:bg-[#3AA8C1] group-hover:text-white">
+            <i class="ti ti-flower"></i>
+          </span>
+          <h3 class="mt-4 font-semibold text-base text-[#3c2a2f]">
+            Control Hormonal y Menopausia
+          </h3>
+          <p class="mt-2 text-xs text-[#6d585e] leading-relaxed">
+            Manejo integral de cambios hormonales, síndrome climatérico y menopausia.
+          </p>
+        </div>
+
+        <!-- Service 8 -->
+        <div class="svc-item bg-white border border-[#f3ded4] rounded-2xl p-6 text-center shadow-sm hover:shadow-md transition-all group">
+          <span class="svc-icon-box mx-auto w-20 h-20 rounded-full bg-[#DE5D83]/10 text-[#DE5D83] flex items-center justify-center text-3xl group-hover:bg-[#DE5D83] group-hover:text-white">
+            <i class="ti ti-heartbeat"></i>
+          </span>
+          <h3 class="mt-4 font-semibold text-base text-[#3c2a2f]">
+            Quistes Ováricos y Patologías Ginecológicas
+          </h3>
+          <p class="mt-2 text-xs text-[#6d585e] leading-relaxed">
+            Diagnóstico certero y tratamiento de quistes de ovario, miomas y afecciones comunes.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== GALERÍA DEL CONSULTORIO ==================== -->
+  <section id="galeria" class="py-20 bg-white/40 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="flex flex-wrap items-end justify-between gap-6">
+        <div>
+          <p class="flex items-center gap-2 text-xs font-bold tracking-widest uppercase text-[#3AA8C1]">
+            <span class="w-8 h-px bg-[#3AA8C1]"></span>
+            Nuestro Consultorio
+          </p>
+          <h2 class="font-serif-d text-4xl text-[#3c2a2f] mt-3">
+            Un espacio pensado para tu comodidad
+          </h2>
+        </div>
+
+        <!-- Carousel Navigation Controls -->
+        <div class="flex gap-3">
+          <button id="galPrev" aria-label="Anterior" class="w-12 h-12 rounded-full bg-white border border-[#f3ded4] text-[#3c2a2f] hover:border-[#DE5D83] text-lg flex items-center justify-center transition-all shadow-sm">
+            <i class="ti ti-arrow-left"></i>
+          </button>
+          <button id="galNext" aria-label="Siguiente" class="w-12 h-12 rounded-full bg-[#DE5D83] text-white text-lg flex items-center justify-center shadow-lg shadow-[#DE5D83]/30 hover:bg-[#c94b70] transition-all">
+            <i class="ti ti-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Carousel Container -->
+      <div class="mt-12 overflow-hidden">
+        <div id="galTrack" class="flex gap-6 transition-transform duration-700 ease-out">
+          <!-- Card 1 -->
+          <article class="gal-card shrink-0 w-[520px] max-w-[85vw] rounded-[2rem] overflow-hidden relative bg-white shadow-xl shadow-[#3c2a2f]/10">
+            <img src="consultorio.jpeg" alt="Consultorio médico cómodo y equipado" class="w-full h-[350px] object-cover" decoding="async" />
+            <div class="absolute inset-0 bg-gradient-to-t from-[#3c2a2f]/80 via-transparent to-transparent"></div>
+            <span class="absolute top-5 left-6 text-[11px] font-bold tracking-widest uppercase text-white bg-white/20 backdrop-blur-md rounded-full px-4 py-1.5 border border-white/30">01</span>
+            <p class="absolute bottom-6 left-6 text-white font-serif-d text-2xl">Consultorio Principal</p>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="gal-card gal-dim shrink-0 w-[520px] max-w-[85vw] rounded-[2rem] overflow-hidden relative bg-white shadow-xl shadow-[#3c2a2f]/10">
+            <img src="recepcion.jpeg" alt="Recepción y sala de espera" class="w-full h-[350px] object-cover" decoding="async" />
+            <div class="absolute inset-0 bg-gradient-to-t from-[#3c2a2f]/80 via-transparent to-transparent"></div>
+            <span class="absolute top-5 left-6 text-[11px] font-bold tracking-widest uppercase text-white bg-white/20 backdrop-blur-md rounded-full px-4 py-1.5 border border-white/30">02</span>
+            <p class="absolute bottom-6 left-6 text-white font-serif-d text-2xl">Recepción y Sala de Espera</p>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="gal-card gal-dim shrink-0 w-[520px] max-w-[85vw] rounded-[2rem] overflow-hidden relative bg-white shadow-xl shadow-[#3c2a2f]/10">
+            <img src="certificados.jpeg" alt="Cédulas y certificados de alta especialidad médica" class="w-full h-[350px] object-cover" decoding="async" />
+            <div class="absolute inset-0 bg-gradient-to-t from-[#3c2a2f]/80 via-transparent to-transparent"></div>
+            <span class="absolute top-5 left-6 text-[11px] font-bold tracking-widest uppercase text-white bg-white/20 backdrop-blur-md rounded-full px-4 py-1.5 border border-white/30">03</span>
+            <p class="absolute bottom-6 left-6 text-white font-serif-d text-2xl">Certificaciones Oficiales</p>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="gal-card gal-dim shrink-0 w-[520px] max-w-[85vw] rounded-[2rem] overflow-hidden relative bg-white shadow-xl shadow-[#3c2a2f]/10">
+            <img src="consultorio.jpeg" alt="Instalaciones modernas en Doctors Hospital East Auna" class="w-full h-[350px] object-cover" decoding="async" />
+            <div class="absolute inset-0 bg-gradient-to-t from-[#3c2a2f]/80 via-transparent to-transparent"></div>
+            <span class="absolute top-5 left-6 text-[11px] font-bold tracking-widest uppercase text-white bg-white/20 backdrop-blur-md rounded-full px-4 py-1.5 border border-white/30">04</span>
+            <p class="absolute bottom-6 left-6 text-white font-serif-d text-2xl">Instalaciones Modernas</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PREGUNTAS FRECUENTES (FAQ) ==================== -->
+  <section id="faq" class="py-20">
+    <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-12 gap-12">
+      <!-- FAQ Sidebar -->
+      <div class="lg:col-span-5">
+        <div class="lg:sticky lg:top-28">
+          <p class="flex items-center gap-2 text-xs font-bold tracking-widest uppercase text-[#DE5D83]">
+            <span class="w-8 h-px bg-[#DE5D83]"></span>
+            Preguntas Frecuentes
+          </p>
+          <h2 class="font-serif-d text-4xl md:text-5xl text-[#3c2a2f] mt-4 leading-tight">
+            Resolvemos<br />tus dudas
+          </h2>
+          <p class="mt-4 text-[#6d585e] max-w-sm text-base">
+            ¿Tenés alguna otra consulta? Escríbenos directamente por WhatsApp y te ayudamos con gusto.
+          </p>
+          <a href="https://wa.me/message/B7XHW6OWKLTDG1" target="_blank" rel="noopener" class="mt-6 inline-flex items-center gap-2 rounded-full border border-[#3AA8C1]/40 bg-[#e6f4f8] text-[#2b7f93] text-sm font-semibold px-6 py-3 hover:border-[#3AA8C1] transition-all">
+            <i class="ti ti-brand-whatsapp text-lg"></i>
+            Enviar mensaje por WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <!-- FAQ Accordion List -->
+      <div class="lg:col-span-7 space-y-4">
+        <!-- Item 1 -->
+        <div class="faq-item open relative bg-white rounded-2xl border border-[#f3ded4] overflow-hidden shadow-sm">
+          <span class="faq-bar absolute left-0 top-0 bottom-0 w-1.5 bg-[#3AA8C1] opacity-0 transition-opacity"></span>
+          <button class="faq-btn w-full flex items-center justify-between gap-4 text-left px-7 py-5 font-semibold text-[#3c2a2f] text-lg">
+            <span>¿Cómo puedo agendar una cita?</span>
+            <span class="faq-icon text-[#DE5D83] text-xl shrink-0"><i class="ti ti-plus"></i></span>
+          </button>
+          <div class="faq-body">
+            <div class="overflow-hidden">
+              <p class="px-7 pb-6 text-sm text-[#6d585e] leading-relaxed">
+                Contás con 3 opciones directas para tu comodidad:
+                <br /><strong class="text-[#3c2a2f]">1. Doctoralia:</strong> Reserva en línea en tiempo real seleccionando el día y la hora que prefieras.
+                <br /><strong class="text-[#3c2a2f]">2. WhatsApp Directo:</strong> Escríbenos un mensaje a WOMEN&amp;KIDS MC para coordinar tu cita.
+                <br /><strong class="text-[#3c2a2f]">3. Teléfono:</strong> Llámanos directamente al consultorio al <strong>+52 81 2713 2300</strong>.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="faq-item relative bg-white rounded-2xl border border-[#f3ded4] overflow-hidden shadow-sm">
+          <span class="faq-bar absolute left-0 top-0 bottom-0 w-1.5 bg-[#3AA8C1] opacity-0 transition-opacity"></span>
+          <button class="faq-btn w-full flex items-center justify-between gap-4 text-left px-7 py-5 font-semibold text-[#3c2a2f] text-lg">
+            <span>¿Dónde está ubicado el consultorio?</span>
+            <span class="faq-icon text-[#DE5D83] text-xl shrink-0"><i class="ti ti-plus"></i></span>
+          </button>
+          <div class="faq-body">
+            <div class="overflow-hidden">
+              <p class="px-7 pb-6 text-sm text-[#6d585e] leading-relaxed">
+                Nos encontramos en <strong>Doctors Hospital East Auna</strong>: Av. Prol. Francisco I. Madero 6060, Col. Libertad, C.P. 67130, Guadalupe, Nuevo León — <strong>Piso 12, Consultorio 1225</strong>.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="faq-item relative bg-white rounded-2xl border border-[#f3ded4] overflow-hidden shadow-sm">
+          <span class="faq-bar absolute left-0 top-0 bottom-0 w-1.5 bg-[#3AA8C1] opacity-0 transition-opacity"></span>
+          <button class="faq-btn w-full flex items-center justify-between gap-4 text-left px-7 py-5 font-semibold text-[#3c2a2f] text-lg">
+            <span>¿Qué documentos debo llevar a mi consulta?</span>
+            <span class="faq-icon text-[#DE5D83] text-xl shrink-0"><i class="ti ti-plus"></i></span>
+          </button>
+          <div class="faq-body">
+            <div class="overflow-hidden">
+              <p class="px-7 pb-6 text-sm text-[#6d585e] leading-relaxed">
+                Te sugerimos llevar una identificación oficial vigente y, si contás con ellos, tus estudios previos (laboratorios, ultrasonidos, papanicolaou o carnet de control prenatal) para dar continuidad a tu historial clínico.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="faq-item relative bg-white rounded-2xl border border-[#f3ded4] overflow-hidden shadow-sm">
+          <span class="faq-bar absolute left-0 top-0 bottom-0 w-1.5 bg-[#3AA8C1] opacity-0 transition-opacity"></span>
+          <button class="faq-btn w-full flex items-center justify-between gap-4 text-left px-7 py-5 font-semibold text-[#3c2a2f] text-lg">
+            <span>¿Qué formas de pago aceptan?</span>
+            <span class="faq-icon text-[#DE5D83] text-xl shrink-0"><i class="ti ti-plus"></i></span>
+          </button>
+          <div class="faq-body">
+            <div class="overflow-hidden">
+              <p class="px-7 pb-6 text-sm text-[#6d585e] leading-relaxed">
+                Aceptamos pagos en <strong>efectivo</strong>, <strong>transferencia bancaria</strong> y <strong>tarjetas de crédito y débito</strong>.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="faq-item relative bg-white rounded-2xl border border-[#f3ded4] overflow-hidden shadow-sm">
+          <span class="faq-bar absolute left-0 top-0 bottom-0 w-1.5 bg-[#3AA8C1] opacity-0 transition-opacity"></span>
+          <button class="faq-btn w-full flex items-center justify-between gap-4 text-left px-7 py-5 font-semibold text-[#3c2a2f] text-lg">
+            <span>¿Atienden urgencias ginecológicas y obstétricas?</span>
+            <span class="faq-icon text-[#DE5D83] text-xl shrink-0"><i class="ti ti-plus"></i></span>
+          </button>
+          <div class="faq-body">
+            <div class="overflow-hidden">
+              <p class="px-7 pb-6 text-sm text-[#6d585e] leading-relaxed">
+                Sí, para pacientes en control obstétrico o urgencias se brinda atención coordinada a través de las vías telefónicas y la infraestructura de <strong>Doctors Hospital East Auna</strong>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== UBICACIÓN Y CONTACTO (SPLIT STICKY MAP PANEL) ==================== -->
+  <section id="ubicacion" class="relative lg:grid lg:grid-cols-2 bg-[#FFF5EE] border-t border-[#DE5D83]/10">
+    <!-- Left Column: Sticky Map with Interactive Floating Badge -->
+    <div class="relative">
+      <div class="lg:sticky lg:top-20 lg:h-[calc(100vh-5rem)] p-6 lg:p-8">
+        <div id="map-frame" class="relative h-[440px] lg:h-full w-full rounded-[2rem] overflow-hidden border border-[#DE5D83]/20 shadow-[0_24px_60px_-24px_rgba(222,93,131,0.35)] bg-white">
+          <!-- Google Maps Iframe -->
+          <iframe title="Mapa — Doctors Hospital East Auna, Guadalupe, Nuevo León" src="https://maps.google.com/maps?q=Doctors+Hospital+East+Auna+Guadalupe+Nuevo+Leon&t=&z=15&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="absolute inset-0 h-full w-full"></iframe>
+          
+          <!-- Floating Map Location & Directions Badge -->
+          <div id="map-badge" class="absolute bottom-5 left-5 right-5 flex items-center gap-4 rounded-2xl bg-white/95 backdrop-blur-md px-5 py-4 border border-white/80 shadow-xl">
+            <span class="grid h-11 w-11 shrink-0 place-items-center rounded-full bg-[#DE5D83] text-white text-xl">
+              <i class="ti ti-map-pin"></i>
+            </span>
+            <div class="min-w-0 flex-1">
+              <p class="font-bold text-sm text-[#3c2a2f] truncate">Doctors Hospital East Auna</p>
+              <p class="text-xs text-[#6d585e] truncate">Piso 12 · Consultorio 1225 · Guadalupe, N.L.</p>
+            </div>
+            <!-- "Cómo llegar" direct navigation button -->
+            <a href="https://www.google.com/maps?q=Doctors+Hospital+East+Auna+Guadalupe+Nuevo+Leon" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 rounded-full bg-[#3AA8C1] text-white px-4 py-2 text-xs font-bold shadow-md hover:bg-[#2b7f93] transition-all whitespace-nowrap">
+              Cómo llegar
+              <i class="ti ti-arrow-up-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Column: Scrollable Content & Details Panel -->
+    <div class="relative bg-white lg:rounded-l-[3rem] border-l border-[#DE5D83]/10 px-6 py-14 lg:px-14 lg:py-20">
+      <div>
+        <p class="text-xs font-bold tracking-[0.28em] uppercase text-[#3AA8C1]">Contacto y ubicación</p>
+        <h2 class="font-serif-d text-4xl lg:text-5xl mt-3 leading-[1.15] text-[#3c2a2f]">
+          Visítanos,<br />
+          <em class="text-[#DE5D83] not-italic font-serif-d">estamos para ti</em>
+        </h2>
+        <p class="mt-4 text-[#6d585e] leading-relaxed max-w-lg text-base">
+          Te esperamos en un espacio pensado para tu comodidad y privacidad, dentro de uno de los hospitales más modernos de la zona metropolitana de Monterrey.
+        </p>
+      </div>
+
+      <!-- Dirección destacada -->
+      <div class="mt-8 relative rounded-2xl border border-[#3AA8C1]/25 bg-[#3AA8C1]/5 p-6 pl-8 overflow-hidden">
+        <span class="absolute left-0 top-0 bottom-0 w-1.5 bg-gradient-to-b from-[#3AA8C1] to-[#DE5D83]"></span>
+        <p class="text-[11px] font-bold tracking-[0.22em] uppercase text-[#3AA8C1] mb-1">Dirección completa</p>
+        <h3 class="font-serif-d text-xl font-bold text-[#3c2a2f]">
+          Doctors Hospital East Auna <span class="text-[#DE5D83]">(WOMEN&amp;KIDS MC)</span>
+        </h3>
+        <p class="mt-2 text-sm text-[#6d585e] leading-relaxed">
+          Av. Prol. Francisco I. Madero 6060, Col. Libertad,<br class="hidden sm:block" />
+          C.P. 67130, Guadalupe, Nuevo León, México
+        </p>
+        <p class="mt-4 inline-flex items-center gap-2 rounded-full bg-white px-4 py-1.5 text-xs font-bold text-[#3c2a2f] border border-[#3AA8C1]/20 shadow-sm">
+          <i class="ti ti-building-hospital text-[#3AA8C1] text-base"></i>
+          Piso 12 · Consultorio 1225
+        </p>
+      </div>
+
+      <!-- CTAs de agendamiento en ubicación -->
+      <div class="mt-10">
+        <div class="flex items-baseline justify-between gap-4 mb-4">
+          <h3 class="font-serif-d text-2xl text-[#3c2a2f]">Agenda tu cita</h3>
+          <span class="text-xs font-semibold text-[#6d585e]">3 vías directas sin esperas</span>
+        </div>
+        
+        <div class="space-y-4">
+          <!-- Doctoralia CTA -->
+          <a href="https://www.doctoralia.com.mx/ahide-valeria-garcia-munoz/ginecologo/nuevo-leon" target="_blank" rel="noopener" class="group flex items-center gap-5 rounded-2xl bg-[#DE5D83] text-white p-5 shadow-lg shadow-[#DE5D83]/30 hover:bg-[#c94b70] transition-all">
+            <span class="grid h-12 w-12 shrink-0 place-items-center rounded-full bg-white/20 text-2xl">
+              <i class="ti ti-calendar-heart"></i>
+            </span>
+            <span class="flex-1 min-w-0">
+              <strong class="block text-base font-bold">Agendar en Doctoralia</strong>
+              <span class="block text-xs text-white/90 mt-0.5">5.0 ⭐ · 763+ opiniones verificadas</span>
+            </span>
+            <i class="ti ti-arrow-up-right text-2xl opacity-80 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"></i>
+          </a>
+
+          <!-- WhatsApp & Phone Grid -->
+          <div class="grid sm:grid-cols-2 gap-4">
+            <a href="https://wa.me/message/B7XHW6OWKLTDG1" target="_blank" rel="noopener" class="group rounded-2xl border border-[#3AA8C1]/30 bg-[#3AA8C1]/5 p-5 hover:border-[#3AA8C1] transition-all">
+              <span class="flex items-center justify-between text-[#3AA8C1] text-2xl">
+                <i class="ti ti-brand-whatsapp"></i>
+                <i class="ti ti-arrow-up-right text-lg opacity-60"></i>
+              </span>
+              <strong class="block text-sm font-bold text-[#3c2a2f] mt-3">WhatsApp Directo</strong>
+              <span class="block text-xs text-[#6d585e] mt-0.5">Respuesta rápida en horario de atención</span>
+            </a>
+
+            <a href="tel:+528127132300" class="group rounded-2xl border border-[#DE5D83]/25 bg-[#FFF5EE] p-5 hover:border-[#DE5D83] transition-all">
+              <span class="flex items-center justify-between text-[#DE5D83] text-2xl">
+                <i class="ti ti-phone"></i>
+                <i class="ti ti-arrow-up-right text-lg opacity-60"></i>
+              </span>
+              <strong class="block text-sm font-bold text-[#3c2a2f] mt-3">Llamar al consultorio</strong>
+              <span class="block text-xs text-[#6d585e] mt-0.5 font-semibold">+52 81 2713 2300</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Urgencias Obstétricas -->
+      <div class="mt-10 relative rounded-2xl border border-[#DE5D83]/30 bg-[#FFF5EE] p-6 pl-8">
+        <span class="absolute left-0 top-0 bottom-0 w-1.5 bg-[#DE5D83]"></span>
+        <div class="flex gap-4">
+          <span class="shrink-0 text-[#DE5D83] text-2xl mt-0.5"><i class="ti ti-urgent"></i></span>
+          <div>
+            <p class="font-bold text-[#DE5D83] text-sm">Urgencias obstétricas y ginecológicas</p>
+            <p class="mt-1 text-xs text-[#6d585e] leading-relaxed">
+              En caso de una urgencia, comunícate inmediatamente al consultorio al
+              <a href="tel:+528127132300" class="font-bold text-[#DE5D83] underline">+52 81 2713 2300</a>
+              o acude directamente a urgencias en Doctors Hospital East Auna.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Redes Sociales -->
+      <p class="mt-8 flex items-center gap-2 text-sm text-[#6d585e]">
+        <span class="text-[#1877F2] text-xl"><i class="ti ti-brand-facebook"></i></span>
+        Síguenos en Facebook:
+        <a href="https://web.facebook.com/dra.valeriagarciam/" target="_blank" rel="noopener" class="font-bold text-[#3c2a2f] underline decoration-[#DE5D83]/50 hover:text-[#DE5D83]">
+          Dra. Valeria García Muñoz <i class="ti ti-arrow-up-right text-xs"></i>
+        </a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="bg-white border-t border-[#DE5D83]/10">
+    <div class="max-w-7xl mx-auto px-6 py-14 grid md:grid-cols-12 gap-10">
+      <!-- Brand & Doctor info -->
+      <div class="md:col-span-4">
+        <a href="#inicio" class="flex items-center gap-3 mb-4">
+          <span class="w-9 h-9 rounded-full bg-[#DE5D83] text-white flex items-center justify-center text-lg">
+            <i class="ti ti-heart-filled"></i>
+          </span>
+          <span class="font-serif-d text-lg font-semibold text-[#3c2a2f]">
+            WOMEN<span class="text-[#DE5D83]">&amp;</span>KIDS <span class="text-[#3AA8C1]">MC</span>
+          </span>
+        </a>
+        <p class="text-sm leading-relaxed text-[#6d585e]">
+          <strong>Dra. Ahidé Valeria García Muñoz</strong><br />
+          Especialista en Ginecología y Obstetricia<br />
+          Medicina Crítica Obstétrica<br />
+          Cédulas Profesionales: 8566406 / 6062822
+        </p>
+        <div class="mt-4 flex gap-3">
+          <a href="https://web.facebook.com/dra.valeriagarciam/" target="_blank" rel="noopener" aria-label="Facebook" class="w-9 h-9 rounded-full border border-[#DE5D83]/20 text-[#DE5D83] flex items-center justify-center hover:bg-[#DE5D83] hover:text-white transition-colors">
+            <i class="ti ti-brand-facebook"></i>
+          </a>
+          <a href="https://wa.me/message/B7XHW6OWKLTDG1" target="_blank" rel="noopener" aria-label="WhatsApp" class="w-9 h-9 rounded-full border border-[#DE5D83]/20 text-[#DE5D83] flex items-center justify-center hover:bg-[#DE5D83] hover:text-white transition-colors">
+            <i class="ti ti-brand-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Quick Nav Links -->
+      <div class="md:col-span-2">
+        <p class="text-xs font-bold tracking-widest uppercase text-[#3AA8C1] mb-4">Navegación</p>
+        <ul class="space-y-2.5 text-sm text-[#6d585e]">
+          <li><a href="#inicio" class="hover:text-[#DE5D83] transition-colors">Inicio</a></li>
+          <li><a href="#agendamiento" class="hover:text-[#DE5D83] transition-colors">Agendar Cita</a></li>
+          <li><a href="#doctora" class="hover:text-[#DE5D83] transition-colors">Sobre la Doctora</a></li>
+          <li><a href="#servicios" class="hover:text-[#DE5D83] transition-colors">Servicios</a></li>
+          <li><a href="#galeria" class="hover:text-[#DE5D83] transition-colors">Consultorio</a></li>
+          <li><a href="#faq" class="hover:text-[#DE5D83] transition-colors">FAQ</a></li>
+        </ul>
+      </div>
+
+      <!-- Business Hours -->
+      <div class="md:col-span-3">
+        <p class="text-xs font-bold tracking-widest uppercase text-[#3AA8C1] mb-4">Horarios de Atención</p>
+        <ul class="space-y-2.5 text-sm text-[#6d585e]">
+          <li class="flex justify-between gap-4">
+            <span>Lunes a Viernes</span>
+            <span class="font-semibold text-[#3c2a2f]">09:00 – 19:00</span>
+          </li>
+          <li class="flex justify-between gap-4">
+            <span>Sábados</span>
+            <span class="font-semibold text-[#3c2a2f]">10:00 – 13:30</span>
+          </li>
+          <li class="flex justify-between gap-4">
+            <span>Domingos</span>
+            <span class="text-[#DE5D83] font-medium">Previa cita</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="md:col-span-3">
+        <p class="text-xs font-bold tracking-widest uppercase text-[#3AA8C1] mb-4">Contacto Directo</p>
+        <ul class="space-y-3 text-sm text-[#6d585e]">
+          <li class="flex gap-2.5">
+            <i class="ti ti-map-pin text-[#DE5D83] text-lg shrink-0 mt-0.5"></i>
+            <span>Doctors Hospital East Auna, Piso 12, Consultorio 1225 · Guadalupe, N.L.</span>
+          </li>
+          <li class="flex gap-2.5 items-center">
+            <i class="ti ti-phone text-[#DE5D83] text-lg shrink-0"></i>
+            <a href="tel:+528127132300" class="hover:text-[#DE5D83] transition-colors font-semibold">81 2713 2300</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="border-t border-[#DE5D83]/10 py-5 text-center text-xs text-[#6d585e]/70">
+      © 2026 WOMEN&amp;KIDS MC · Dra. Ahidé Valeria García Muñoz · Todos los derechos reservados.
+    </div>
+  </footer>
+
+  <!-- ==================== FLOATING DUAL ACTION BUTTONS ==================== -->
+  <div class="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-3 pointer-events-none">
+    <!-- Doctoralia Floating Pill -->
+    <a href="https://www.doctoralia.com.mx/ahide-valeria-garcia-munoz/ginecologo/nuevo-leon" target="_blank" rel="noopener" class="pointer-events-auto group flex items-center gap-2.5 bg-[#DE5D83] text-white text-xs font-semibold px-4 py-3 rounded-full shadow-2xl hover:bg-[#c94b70] hover:scale-105 transition-all border border-white/30 backdrop-blur-md">
+      <span class="bg-white/20 rounded-full w-7 h-7 flex items-center justify-center text-sm">
+        <i class="ti ti-calendar-check"></i>
+      </span>
+      <span class="hidden sm:inline">⭐ 5.0 Agendar Cita en Doctoralia</span>
+      <span class="sm:hidden">Agendar Cita</span>
+    </a>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/message/B7XHW6OWKLTDG1" target="_blank" rel="noopener" aria-label="Enviar mensaje por WhatsApp" class="pointer-events-auto relative group flex items-center gap-3 bg-[#25D366] text-white text-sm font-semibold p-3.5 sm:px-5 sm:py-3.5 rounded-full shadow-2xl hover:bg-[#20bd5a] hover:scale-105 transition-all border border-white/30">
+      <span class="relative z-10 text-2xl flex items-center justify-center">
+        <i class="ti ti-brand-whatsapp"></i>
+      </span>
+      <span class="hidden sm:inline relative z-10 text-xs font-bold tracking-wide">WhatsApp Directo</span>
+      <!-- Pulsing ring effect -->
+      <span class="absolute inset-0 rounded-full bg-[#25D366]/40 animate-ping pointer-events-none"></span>
+    </a>
+  </div>
+
+  <!-- GSAP & ScrollTrigger Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+
+  <!-- Local Custom JS -->
+  <script src="main.js"></script>
+</body>
+</html>
